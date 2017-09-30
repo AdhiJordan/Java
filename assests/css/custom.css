@@ -1,7 +1,7 @@
 body {
 	margin-top: 50px;
 	font-size: 16px;
-	background: url('../img/redblack.jpg') height: 300px, top left repeat;
+	/*background: url('../img/2275.jpg') height: 300px, top left repeat;*/
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -18,7 +18,9 @@ h1,h2,h3,h4,h5,h6 {
 	color: #000000;
 }
 
-
+.somecontentstyle{
+	
+}
 h3 {
 	margin: 20px 0;
 }
@@ -27,8 +29,9 @@ h4 {
 }
 
 #hero {
-	background: url('../img/redblack.jpg') 50% 0 repeat fixed;
-	min-height: 300px;
+	background: #ffffff;
+	/*background: url('../img/2275.jpg') 80% 0 repeat fixed;*/
+	min-height: 720px;
 	padding: 40px 0;
 	color: white;
     -webkit-font-smoothing: antialiased;
@@ -85,7 +88,7 @@ h4 {
 }
 .btn-danger {
 	background-color: #dd5638;
-	border-collapse: #d95131;
+	border-collapse: #e5e5e5e5;
 }
 img {
 	max-width: 100%;
@@ -251,10 +254,10 @@ blockquote:before {
 	font-size: 24px;
 }
 footer {
-	background: #3e4249;
+	background: #cccccc;
 	color: white;
 	padding: 20px 0 10px;
-	font-size: 12px;
+	font-size: 15px;
 }
 footer p{
 	margin: 0;
@@ -328,7 +331,7 @@ p.lead {
 /*media queries */
 @media screen and (max-width: 991px) {
 	#instructor.container {
-		background: rgba(255,255,255,0.8);
+		background: rgba(#e5e5e5e5);
 		padding: 20px;
 	}
 }
